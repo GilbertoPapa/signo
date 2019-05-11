@@ -1,0 +1,23 @@
+--- adb starting (pid 15639) ---
+adb I 15639 15639 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 15639 15639 main.cpp:78] Revision af05c7354fe1-android
+adb I 15639 15639 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 15652) ---
+adb I 15652 15652 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 15652 15652 main.cpp:78] Revision af05c7354fe1-android
+adb I 15652 15652 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 15708) ---
+adb I 15708 15708 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 15708 15708 main.cpp:78] Revision af05c7354fe1-android
+adb I 15708 15708 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 15929) ---
+adb I 04-28 20:18:35 15929 15929 main.cpp:57] Android Debug Bridge version 1.0.39
+adb I 04-28 20:18:35 15929 15929 main.cpp:57] Version 1:8.1.0+r23-5~18.04
+adb I 04-28 20:18:35 15929 15929 main.cpp:57] Installed as /usr/lib/android-sdk/platform-tools/adb
+adb I 04-28 20:18:35 15929 15929 main.cpp:57] 
+adb I 04-28 20:18:35 15929 15929 adb_auth_host.cpp:416] adb_auth_init...
+adb I 04-28 20:18:35 15929 15929 adb_auth_host.cpp:174] read_key_file '/home/gilberto/.android/adbkey'...
+adb I 04-28 20:18:35 15929 15929 adb_auth_host.cpp:391] adb_auth_inotify_init...
