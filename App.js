@@ -1,24 +1,26 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Switch } from 'react-native-gesture-handler';
-
-export default class App extends React.Component {
-  render() {
+import React, { Component } from 'react'
+import { View, StyleSheet } from 'react-native'
+import ListaSignos from './ListaSignos'
+import DetalhesSigno from './DetalhesSigno'
+import { NativeRouter as Router, Switch, Route } from 'react-router-native'
+ 
+export default class App extends Component {
+  render () {
     return (
       <Router>
         <View style={styles.container}>
           <Switch>
-            <Router path='/:idSigno' Component={DetalhesSigno}/>
-            <Router Component={ListaSignos}/>
+            <Route path='/:idSigno' component={DetalhesSigno} />
+            <Route component={ListaSignos} />
           </Switch>
         </View>
       </Router>
-    );
+    )
   }
 }
-
+ 
 const styles = StyleSheet.create({
   container: {
-    flex: 0.2,
-  },
-});
+    flex: 1
+  }
+})
